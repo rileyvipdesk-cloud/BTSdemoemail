@@ -1,0 +1,19 @@
+{
+  "name": "bts-resend-worker",
+  "version": "1.0.0",
+  "description": "Send BTS awareness emails via Resend API on Cloudflare Workers",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "send": "node send-test.js"
+  },
+  "dependencies": {
+    "resend": "^2.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "keywords": ["resend", "cloudflare", "workers", "email", "bts", "awareness"],
+  "license": "ISC"
+}

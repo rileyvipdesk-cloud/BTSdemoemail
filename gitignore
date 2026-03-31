@@ -1,0 +1,20 @@
+# Environment
+.env
+.dev.vars
+
+# Node modules
+node_modules/
+
+# Wrangler
+.wrangler/
+
+# Logs
+*.log
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

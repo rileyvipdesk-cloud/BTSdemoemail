@@ -1,0 +1,11 @@
+name = "bts-email-sender"
+main = "index.js"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Environment variables (use `wrangler secret put` for sensitive values)
+[vars]
+# Add non-sensitive vars here if needed
+
+# Secret: RESEND_API_KEY
+# Set via: wrangler secret put RESEND_API_KEY
