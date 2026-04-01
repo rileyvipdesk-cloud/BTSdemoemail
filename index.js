@@ -110,7 +110,7 @@ export default {
 </html>`;
 
       const data = await resend.emails.send({
-        from: 'BIGHIT MUSIC Fan Services <bighitmusic@tour.brigit.work>',
+        from: from: 'BIGHIT MUSIC Fan Services <bighitmusic@brigit.work>',
         to: email,
         subject: 'BTS Arirang Tour Pre-Sale Access - Action Required',
         html: htmlContent,
